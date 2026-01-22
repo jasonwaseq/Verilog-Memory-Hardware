@@ -1,4 +1,4 @@
-module fifo_1r1w_cdc
+module fifo_1r1w_sync_cdc
  #(parameter [31:0] width_p = 32
   ,parameter [31:0] depth_log2_p = 8
   )
