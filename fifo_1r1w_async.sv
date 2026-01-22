@@ -1,4 +1,4 @@
-module fifo_1r1w
+module fifo_1r1w_async
   #(parameter [31:0] width_p = 8
    // Note: Not depth_p! depth_p should be 1<<depth_log2_p
    ,parameter [31:0] depth_log2_p = 8
