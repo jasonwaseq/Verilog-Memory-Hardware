@@ -1,4 +1,4 @@
-module delaybuffer
+module reg_delaybuffer
   #(parameter int width_p = 8,
     parameter int delay_p = 8)
   (input  logic               clk_i,
