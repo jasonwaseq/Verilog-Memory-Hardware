@@ -1,4 +1,4 @@
-module delaybuffer
+module srl_delaybuffer
   #(parameter [31:0] width_p = 8
    ,parameter [31:0] delay_p = 8
    )
